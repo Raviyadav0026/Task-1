@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-12-19T10:05:33.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="W_V77uzi3d3o3PS6SuJw" version="22.1.11" type="google">
+  <diagram name="Page-1" id="N0LKf2NDcwEIPh36aEMj">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s9BajeOCRJQf8Sklybx6-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-46" y="96.165137614679" as="targetPoint" />
+            <mxPoint x="-46" y="79.834862385321" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-4" value="Intersctl Script" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="182" y="-6.5" width="189" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-6" value="User Execute Internsctl Command" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-184" y="-6.5" width="189" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-7" value="Decision:&amp;nbsp;&lt;br&gt;Command Type" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="258" width="164" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-8" value="Execute Command Logic" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="472" width="164" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-9" value="Display Result or error message" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-68" y="681" width="164" height="164" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="839.5999755859375" as="sourcePoint" />
+            <mxPoint x="306" y="184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.027;entryY=0.94;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="s9BajeOCRJQf8Sklybx6-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="838" as="sourcePoint" />
+            <mxPoint x="169" y="667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.417;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s9BajeOCRJQf8Sklybx6-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-23" y="686" as="sourcePoint" />
+            <mxPoint y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.417;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4" y="424" as="sourcePoint" />
+            <mxPoint x="-4" y="466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-15" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.417;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4" y="182.5" as="sourcePoint" />
+            <mxPoint x="-4" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-16" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="96" y="331" as="sourcePoint" />
+            <mxPoint x="307" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BajeOCRJQf8Sklybx6-17" value="&lt;b&gt;&lt;u&gt;WORKFLOW&amp;nbsp; DIAGRAM&lt;/u&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-324" y="-252" width="891" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wVUTPTE4uT2tOewOja2N-1" value="Internsctl&lt;br&gt;-- version&lt;br&gt;-- help" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="526" y="-6.5" width="189" height="189" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

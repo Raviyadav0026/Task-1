@@ -1,0 +1,93 @@
+# internsctl Manual Page
+
+## NAME
+**internsctl** - Custom Linux command for various operations
+
+## SYNOPSIS
+**internsctl** [**options**] [**command**] [**subcommand**] [**arguments**]
+
+## DESCRIPTION
+`internsctl` is a custom Linux command designed to perform various system operations.
+
+## OPTIONS
+- **--version**
+    Display the version of the command.
+
+- **--help**
+    Display help information.
+
+## COMMANDS
+- **cpu getinfo**
+    Get CPU information.
+
+- **memory getinfo**
+    Get memory information.
+
+- **user create <username>**
+    Create a new user on the server.
+
+- **user list [--sudo-only]**
+    List all regular users or users with sudo permissions.
+
+- **file getinfo [options] <file-name>**
+    Get information about a file.
+
+    Options:
+    - **--size, -s**
+        Print file size.
+    - **--permissions, -p**
+        Print file permissions.
+    - **--owner, -o**
+        Print file owner.
+    - **--last-modified, -m**
+        Print last modified time.
+
+## EXAMPLES
+
+- Display command version:
+    ```bash
+    internsctl --version
+    ```
+
+- Display help information:
+    ```bash
+    internsctl --help
+    ```
+
+- Get CPU information:
+    ```bash
+    internsctl cpu getinfo
+    ```
+
+- Get memory information:
+    ```bash
+    internsctl memory getinfo
+    ```
+
+- Create a new user:
+    ```bash
+    internsctl user create <username>
+    ```
+
+- List all users:
+    ```bash
+    internsctl user list
+    ```
+
+- List users with sudo permissions:
+    ```bash
+    internsctl user list --sudo-only
+    ```
+
+- Get file information:
+    ```bash
+    internsctl file getinfo <file-name>
+    ```
+
+- Get specific file information:
+    ```bash
+    internsctl file getinfo --size hello.txt
+    internsctl file getinfo --permissions hello.txt
+    internsctl file getinfo --owner hello.txt
+    internsctl file getinfo --last-modified hello.txt
+    ```
